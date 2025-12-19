@@ -12,7 +12,7 @@ public class PracticeFormTest extends BaseTest {
     public void fillPracticeForm() {
         PracticeFormPage formPage = new PracticeFormPage(driver);
         formPage.enterFirstName("John");
-        formPage.enterLastName("Doo");
+        formPage.enterLastName("Dot");
         formPage.enterEmail("john.doo@example.com");
         formPage.selectGenderFemale();
         formPage.enterMobile("9876543210");
